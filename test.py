@@ -1,6 +1,34 @@
-list = []
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 13 09:15:40 2020
 
-for i in range(4):
-    list.insert(i, 5)
+@author: Admin
+"""
 
-print(list)
+'''
+ Определить, какое число в массиве встречается чаще всего.
+ '''
+
+from random import random
+
+N = 15
+arr = [0] * N
+for i in range(N):
+    arr[i] = int(random() * 20)
+print(arr)
+
+num = arr[0]
+max_frq = 1
+for i in range(N - 1):
+    frq = 1
+    for k in range(i + 1, N):
+        if arr[i] == arr[k]:
+            frq += 1
+    if frq > max_frq:
+        max_frq = frq
+        num = arr[i]
+
+if max_frq > 1:
+    print('частота числа,', num, 'равна', max_frq)
+else:
+    print('Все элементы уникальны')
