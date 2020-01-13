@@ -2,34 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f860e1-d0ab-42b4-b03a-cafd6cbe2da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekbrains_ai__alorithms_lesson_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_1_(calc).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_2_((un)even_digits).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_3_(inverse_string).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_4_(sum).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_5_(table_output).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_6_(guess_the_number).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_7_(func_comparison).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_8_(digit_find).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2_task_9_(digits_sum).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Квитко_Тарас_lesson_2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_1_(dividers).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_2_(evens_positions).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_task_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_theory_(list, set, touple, frozenset).py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/geekbrains_ai_algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geekbrains_ai_algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2_task_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1_task_8_(find_average_of_three).py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1_task_8_(find_average_of_three).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(search_for_random).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06_alt_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(bin_search_for_random)).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +51,8 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="lesson_2_task_3_(inverse_string)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lesson_3_task_9">
+    <configuration name="lesson_3_task_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_2_task_3_(inverse_string).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3_task_6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_2_task_4_(sum)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_3_task_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_2_task_4_(sum).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3_task_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_2_task_5_(table_output)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_3_task_8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_2_task_5_(table_output).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3_task_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_2_task_6_(guess_the_number)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_3_task_9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_2_task_6_(guess_the_number).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3_task_9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson_3_task_9" />
+        <item itemvalue="Python.lesson_3_task_8" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.lesson_2_task_5_(table_output)" />
-        <item itemvalue="Python.lesson_2_task_3_(inverse_string)" />
-        <item itemvalue="Python.lesson_2_task_4_(sum)" />
-        <item itemvalue="Python.lesson_2_task_6_(guess_the_number)" />
+        <item itemvalue="Python.lesson_3_task_7" />
+        <item itemvalue="Python.lesson_3_task_6" />
       </list>
     </recent_temporary>
   </component>
@@ -207,32 +197,32 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="465" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.804@0.23.1440.804" timestamp="1578856077389" />
-    <state width="1419" height="223" key="GridCell.Tab.0.bottom" timestamp="1578856077872">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state width="1419" height="223" key="GridCell.Tab.0.bottom" timestamp="1578874973849">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1578856077872" />
-    <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1578848079964" />
+    <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1578874973849" />
     <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1578770379981" />
     <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1578770501501" />
-    <state width="1419" height="223" key="GridCell.Tab.0.center" timestamp="1578856077871">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state width="1419" height="223" key="GridCell.Tab.0.center" timestamp="1578874973848">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="223" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1578856077871" />
-    <state width="1419" height="223" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1578848079964" />
+    <state width="1419" height="223" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1578874973848" />
     <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1578770379980" />
     <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
-    <state width="1419" height="223" key="GridCell.Tab.0.left" timestamp="1578856077871">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state width="1419" height="223" key="GridCell.Tab.0.left" timestamp="1578874973848">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="223" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1578856077871" />
-    <state width="1419" height="223" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1578848079963" />
+    <state width="1419" height="223" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1578874973848" />
     <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1578770379979" />
     <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
-    <state width="1419" height="223" key="GridCell.Tab.0.right" timestamp="1578856077872">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state width="1419" height="223" key="GridCell.Tab.0.right" timestamp="1578874973849">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="223" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1578856077872" />
-    <state width="1419" height="223" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1578848079964" />
+    <state width="1419" height="223" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1578874973849" />
     <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1578770379980" />
     <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
     <state x="385" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1578818737270">
