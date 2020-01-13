@@ -1,34 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 13 09:15:40 2020
+def create_simples():
+    n = 100
+    sieve = [i for i in range(n)]
+    sieve[1] = 0
+    for i in range(2, n):
+        if sieve[i] != 0:
+            j = i * 2
+            while j < n:
+                sieve[j] = 0
+                j += i
+    result = [i for i in sieve if i != 0]
+    return result
 
-@author: Admin
-"""
 
-'''
- Определить, какое число в массиве встречается чаще всего.
- '''
-
-from random import random
-
-N = 15
-arr = [0] * N
-for i in range(N):
-    arr[i] = int(random() * 20)
-print(arr)
-
-num = arr[0]
-max_frq = 1
-for i in range(N - 1):
-    frq = 1
-    for k in range(i + 1, N):
-        if arr[i] == arr[k]:
-            frq += 1
-    if frq > max_frq:
-        max_frq = frq
-        num = arr[i]
-
-if max_frq > 1:
-    print('частота числа,', num, 'равна', max_frq)
-else:
-    print('Все элементы уникальны')
+list = create_simples()
