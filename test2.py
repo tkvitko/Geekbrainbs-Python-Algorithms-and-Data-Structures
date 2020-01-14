@@ -1,14 +1,12 @@
-n = 2
-result = []
-while len(result) != 5:
-    d = 2
-    while n % d != 0:
-        d += 1
-    print(f'n = {n}')
-    print(f'd = {d}')
+from collections import defaultdict
 
-    if d == n:
-        result.append(d)
-    n += 1
+list_1 = [('cat', 1), ('dog', 5), ('cat', 1), ('mouse', 1), ('dog', 1)]
+c = defaultdict(list)
+for k, v in list_1:
+    c[k].append(v)
+print(c)
 
-print(result)
+d = defaultdict(set)
+for k, v in list_1:
+    d[k].add(v)
+print(d)
