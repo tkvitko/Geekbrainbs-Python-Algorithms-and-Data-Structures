@@ -19,10 +19,11 @@ def find_simple2(position, end):
 
         simples = list(set(all) - set(not_simples))
         return simples
-
     lst = create_simples()
     number = lst[position]
     return number
+
+print(find_simple2(5,100))
 
 # "lesson_4_task_2_var_2.find_simple2(10, 100)"
 # 1000 loops, best of 5: 357 usec per loop
