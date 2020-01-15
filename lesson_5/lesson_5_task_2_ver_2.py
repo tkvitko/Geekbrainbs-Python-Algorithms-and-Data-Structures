@@ -58,6 +58,8 @@ def composition_hex(hex1, hex2):
             item.append(0)
 
     # Суммирование итоговых строк в столбик
+    # TDB Этот код нужно переписать. Сейчас он складывает только 2 строки
+    # Строк может быть больше, если длина num2 больше 2 цифр
     sum_list = [0] * (len(num1) + 1)
     for i in range(len(num1) + 1):
         sum_list[i] = list[0][i] + list[1][i]

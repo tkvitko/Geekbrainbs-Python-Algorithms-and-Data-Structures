@@ -1,34 +1,11 @@
-sum_list = [10, 27, 38, 24]
-print(sum_list)
+list = [[10, 15, 20, 0, 0], [0, 12, 18, 24, 0], [0, 0, 14, 21, 28]]
 
-# Приведение суммарной строки от чисел к цифрам
-# правило столбика для сложения (количество десятков на предыдущую цифру)
+sum = []
 
-def digit_normalization(sum_list):
+sum = [list[0][0] + list[1][0] + list[2][0], list[0][1] + list[1][1] + list[2][1], list[0][2] + list[1][2] + list[2][2]]
 
-    #Магическая функция для превращения списка чисел в список цифр по правилу сложения:
-    #если на какой-то позиции число больше 9, от него остается только значение единицы,
-    #а значение десятка прибавляется к предыдущему числу
+sum_items = list[0][0] + list[1][0] + list[2][0]
 
-    is_bad_digits = [i for i in sum_list if i > 9]
-    # True, если в списке всё ещё есть числа для обработки
-
-    sum_list.insert(0, 0)
-    # Добавим лидирующий ноль для случая, если первое число тоже придется обработать
-
-    while is_bad_digits:
-        for i in sum_list:
-            if i > 9:
-                dec = i // 10
-                digit = i % 10
-                cur_pos = sum_list.index(i)
-                prev_pos = cur_pos - 1
-                sum_list.pop(cur_pos)
-                sum_list.insert(cur_pos, digit)
-                spam = sum_list.pop(prev_pos)
-                sum_list.insert(prev_pos, spam + dec)
-            is_bad_digits = [i for i in sum_list if i > 9]
-
-    return sum_list
-
-print(digit_normalization(sum_list))
+sum_items = 0
+for j in range(0, 2):
+    sum_items += list[j][0]

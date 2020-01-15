@@ -99,3 +99,9 @@ def dec_to_hex(num):
     for k, v in dict.items():
         if v == num:
             return k
+
+num1 = [2, 3, 4]
+num2 = [5, 6, 7]
+
+print(summa(num1, num2))
+print(composition(num1, num2))
