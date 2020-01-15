@@ -12,7 +12,7 @@ def digit_normalization_hex(sum_list):
     # True, если в списке всё ещё есть числа для обработки
 
     while is_bad_digits:
-        if sum_list[1] > 15:
+        if sum_list[0] > 15:    #был баг с 1 вместо 0, проверялся не тот элемент
             sum_list.insert(0, 0)
             # Добавим лидирующий ноль для случая, если первое число тоже придется обработать
         for i in sum_list:
@@ -47,22 +47,23 @@ def composition_hex(hex1, hex2):
             list_j.append(local_comp)
         list.append(list_j)
 
-    # Добавляем нули справа для каждой строки
+    # Добавляем нули слева для каждой строки
     for i, item in enumerate(list):
         for j in range(i):
             item.insert(0, 0)
 
-    # Добавляем нули слева для каждоый строки
+    # Добавляем нули справа для каждоый строки
     for i, item in enumerate(list):
-        for j in range(len(num2) - i):
+        for j in range(len(num2) - i - 1):  #был баг с невычитаением 1, что приводило к лишнему нулю
             item.append(0)
 
     # Суммирование итоговых строк в столбик
-    # TDB Этот код нужно переписать. Сейчас он складывает только 2 строки
-    # Строк может быть больше, если длина num2 больше 2 цифр
-    sum_list = [0] * (len(num1) + 1)
-    for i in range(len(num1) + 1):
-        sum_list[i] = list[0][i] + list[1][i]
+    sum_list = []
+    for j in range(len(list[0])):
+        sum_i = 0
+        for i in range(len(list)):
+            sum_i += list[i][j]
+        sum_list.append(sum_i)
 
     # Обработка итогового списка на предмет чисел больше 15
     digit_normalization_hex(sum_list)
@@ -148,7 +149,13 @@ dict = {
 #hex1 = ['C', '4', 'F']
 #hex2 = ['A', '2']
 
-string1 = input('Певрое число: ')
+#Вводные
+#hex1 = ['5', 'D', '1']
+#hex2 = ['6', '1', 'F']
+# Сумма: ['B', 'F', '0']
+# Произведение: ['2', '3', '9', 'A', '4', 'F']
+
+string1 = input('Первое число: ')
 string2 = input('Второе число: ')
 hex1 = list(string1)
 hex2 = list(string2)

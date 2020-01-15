@@ -1,11 +1,114 @@
-list = [[10, 15, 20, 0, 0], [0, 12, 18, 24, 0], [0, 0, 14, 21, 28]]
+dict = {
+    'A': 10,
+    'B': 11,
+    'C': 12,
+    'D': 13,
+    'E': 14,
+    'F': 15,
+    '0': 0,
+    '1': 1,
+    '2': 2,
+    '3': 3,
+    '4': 4,
+    '5': 5,
+    '6': 6,
+    '7': 7,
+    '8': 8,
+    '9': 9
+}
 
-sum = []
+def hex_to_int_list(hex_list):
+    # Функция для перевода списка шестнадцатеричных цифр в список десятиных цифр
+    num_list = []
+    for i in hex_list:
+        num_list.append(dict[i])
 
-sum = [list[0][0] + list[1][0] + list[2][0], list[0][1] + list[1][1] + list[2][1], list[0][2] + list[1][2] + list[2][2]]
+    return num_list
 
-sum_items = list[0][0] + list[1][0] + list[2][0]
+def composition_hex(hex1, hex2):
+    # Функция для умножения в столбик двух шестнадцатеричных чисел, представленных списком цифр
 
-sum_items = 0
-for j in range(0, 2):
-    sum_items += list[j][0]
+    # Преобразуем входные списки шестнадцатеричных цифр в списки десятичных цифр
+    num1 = hex_to_int_list(hex1)
+    num2 = hex_to_int_list(hex2)
+
+    # Умножение в столбик
+    list = []
+
+    for j in num2:
+        list_j = []
+        for i in num1:
+            local_comp = i * j
+            list_j.append(local_comp)
+        list.append(list_j)
+
+    # Добавляем нули справа для каждой строки
+    for i, item in enumerate(list):
+        for j in range(i):
+            item.insert(0, 0)
+
+    # Добавляем нули слева для каждоый строки
+    for i, item in enumerate(list):
+        for j in range(len(num2) - i):
+            item.append(0)
+
+    # Суммирование итоговых строк в столбик
+    sum_list = []
+    for j in range(len(list[0])):
+        sum_i = 0
+        for i in range(len(list)):
+            sum_i += list[i][j]
+        sum_list.append(sum_i)
+
+    # Обработка итогового списка на предмет чисел больше 15
+#    digit_normalization_hex(sum_list)
+
+    return sum_list
+
+def digit_normalization_hex(sum_list):
+    #Магическая функция для превращения списка чисел в список цифр по правилу сложения:
+    #если на какой-то позиции число больше 15, от него остается только значение единицы,
+    #а значение десятка прибавляется к предыдущему числу
+
+    #Применяется далее для того, чтобы привести нижнюю (итоговую) строчку столбика к виду,
+    #когда в нем только цифры
+
+    is_bad_digits = [i for i in sum_list if i > 15]
+    # True, если в списке всё ещё есть числа для обработки
+
+    while is_bad_digits:
+        if sum_list[0] > 15:
+            sum_list.insert(0, 0)
+            # Добавим лидирующий ноль для случая, если первое число тоже придется обработать
+        for i in sum_list:
+            if i > 15:
+                dec = i // 16
+                digit = i % 16
+                cur_pos = sum_list.index(i)
+                prev_pos = cur_pos - 1
+                sum_list.pop(cur_pos)
+                sum_list.insert(cur_pos, digit)
+                spam = sum_list.pop(prev_pos)
+                sum_list.insert(prev_pos, spam + dec)
+            is_bad_digits = [i for i in sum_list if i > 15]
+
+    return sum_list
+
+def int_to_hex_list(num_list):
+    # Функция для перевода списка десятичных цифр в список шестнадцатеричных цифр
+    hex_list = []
+    for i in num_list:
+        def dict_search(num):
+            for k, v in dict.items():
+                if v == num:
+                    return k
+        j = dict_search(i)
+        hex_list.append(j)
+
+    return hex_list
+
+hex1 = ['5', 'D', '1']
+hex2 = ['6', '1', 'F']
+
+print(f'Произведение: {int_to_hex_list(composition_hex(hex1, hex2))}')
+print(composition_hex(hex1, hex2))
