@@ -151,8 +151,8 @@ dict = {
 }
 
 # Вводные
-# hex1 = ['C', '4', 'F']
-# hex2 = ['A', '2']
+hex1 = ['C', '4', 'F']
+hex2 = ['A', '2']
 
 # Вводные
 # hex1 = ['5', 'D', '1']
@@ -160,10 +160,10 @@ dict = {
 # Сумма: ['B', 'F', '0']
 # Произведение: ['2', '3', '9', 'A', '4', 'F']
 
-string1 = input('Первое число: ')
-string2 = input('Второе число: ')
-hex1 = list(string1)
-hex2 = list(string2)
+# string1 = input('Первое число: ')
+# string2 = input('Второе число: ')
+# hex1 = list(string1)
+# hex2 = list(string2)
 
 print(f'Сумма: {int_to_hex_list(summa_hex(hex1, hex2))}')
 print(f'Произведение: {int_to_hex_list(composition_hex(hex1, hex2))}')

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f860e1-d0ab-42b4-b03a-cafd6cbe2da6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_6/code_for_memory_used.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/lesson_6_theory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_6/lesson_6_theory_2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_5/lesson_5_task_2_ver_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5/lesson_5_task_2_ver_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(search_for_random).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06_alt_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(bin_search_for_random)).py" afterDir="false" />
@@ -36,12 +46,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_6" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson_6" />
       <recent name="$PROJECT_DIR$/lesson_4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -52,8 +63,8 @@
       <recent name="$PROJECT_DIR$/lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesson_5_task_2_ver_2">
-    <configuration name="lesson_3_task_8_sum_strings_in_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.code_for_memory_used">
+    <configuration name="code_for_memory_used" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_3/lesson_3_task_8_sum_strings_in_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/code_for_memory_used.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_5_task_2_additional_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_simple_number_var_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_5/lesson_5_task_2_additional_functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/find_simple_number_var_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_5_task_2_ver_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_simple_number_var_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_5/lesson_5_task_2_ver_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/find_simple_number_var_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_simple_number_var_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/find_simple_number_var_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_simple_number_var_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/find_simple_number_var_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lesson_5_task_2_ver_2" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.lesson_3_task_8_sum_strings_in_matrix" />
-        <item itemvalue="Python.lesson_5_task_2_additional_functions" />
+        <item itemvalue="Python.code_for_memory_used" />
+        <item itemvalue="Python.find_simple_number_var_1" />
+        <item itemvalue="Python.find_simple_number_var_2" />
+        <item itemvalue="Python.find_simple_number_var_4" />
+        <item itemvalue="Python.find_simple_number_var_3" />
       </list>
     </recent_temporary>
   </component>
@@ -198,43 +209,47 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="465" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.804@0.23.1440.804" timestamp="1578856077389" />
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom" timestamp="1579100998972">
-      <screen x="483" y="1463" width="1440" height="806" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom" timestamp="1579202081698">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="146" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1579004052088" />
+    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1579202081698" />
     <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1579089021272" />
     <state width="1419" height="146" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1578770501501" />
+    <state width="1419" height="512" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579192163253" />
     <state width="1419" height="223" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1578925279329" />
     <state width="1419" height="215" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579020680053" />
     <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998972" />
-    <state width="1419" height="172" key="GridCell.Tab.0.center" timestamp="1579100998971">
-      <screen x="483" y="1463" width="1440" height="806" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center" timestamp="1579202081697">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="146" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1579004052087" />
+    <state width="1419" height="242" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1579202081697" />
     <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1579089021271" />
     <state width="1419" height="146" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
+    <state width="1419" height="512" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579192163252" />
     <state width="1419" height="223" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1578925279327" />
     <state width="1419" height="215" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579020680052" />
     <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998971" />
-    <state width="1419" height="172" key="GridCell.Tab.0.left" timestamp="1579100998970">
-      <screen x="483" y="1463" width="1440" height="806" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left" timestamp="1579202081697">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="146" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1579004052086" />
+    <state width="1419" height="242" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1579202081697" />
     <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1579089021270" />
     <state width="1419" height="146" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1578953554416" />
     <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
+    <state width="1419" height="512" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579192163251" />
     <state width="1419" height="223" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1578925279326" />
     <state width="1419" height="215" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579020680051" />
     <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998970" />
-    <state width="1419" height="172" key="GridCell.Tab.0.right" timestamp="1579100998972">
-      <screen x="483" y="1463" width="1440" height="806" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right" timestamp="1579202081697">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state width="1419" height="146" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1579004052087" />
+    <state width="1419" height="242" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1579202081697" />
     <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1579089021271" />
     <state width="1419" height="146" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
+    <state width="1419" height="512" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579192163252" />
     <state width="1419" height="223" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1578925279328" />
     <state width="1419" height="215" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579020680053" />
     <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998972" />
