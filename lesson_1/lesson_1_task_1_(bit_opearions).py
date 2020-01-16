@@ -6,7 +6,7 @@ a = 5
 b = 6
 shift = 2
 
-#вычисления
+# вычисления
 result_and = a & b
 result_or = a | b
 result_xor = a ^ b
@@ -15,7 +15,7 @@ result_not_b = ~ b
 result_right = a >> shift
 result_left = a << shift
 
-#вывод результатов
+# вывод результатов
 print(f'Битовое И для {a} и {b}: {result_and}')
 print(f'Битовое ИЛИ для {a} и {b}: {result_or}')
 print(f'Битовое исключающее ИЛИ для {a} и {b}: {result_xor}')

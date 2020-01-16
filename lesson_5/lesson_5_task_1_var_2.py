@@ -23,7 +23,7 @@ prod_2_sum = prod_2.q1_profit + prod_2.q2_profit + \
 prod_3_sum = prod_3.q1_profit + prod_3.q2_profit + \
              prod_3.q3_profit + prod_3.q4_profit
 
-avg_sum = (prod_1_sum + prod_2_sum + prod_3_sum)/3
+avg_sum = (prod_1_sum + prod_2_sum + prod_3_sum) / 3
 
 sums_list = [prod_1_sum, prod_2_sum, prod_3_sum]
 winners_list = []

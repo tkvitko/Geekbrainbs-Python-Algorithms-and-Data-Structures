@@ -15,10 +15,11 @@ print(sum)
 # Вариант решения через рекурсию (от другого студента)
 # k - количество элементов
 # itog - текущее значение суммы, на входе в рекурисию равно 1
-def recursion (k, itog):
+def recursion(k, itog):
     k -= 1
     if k > 0:
         itog += (-0.5) * recursion(k, itog)
     return itog
+
 
 print(recursion(4, 1))

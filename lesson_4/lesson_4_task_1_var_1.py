@@ -3,6 +3,7 @@
 
 import cProfile
 
+
 def find_mins(len):
     import random
 
@@ -36,11 +37,11 @@ def find_mins(len):
 # "lesson_3_task_7_orig.find_mins(500)"
 # 1000 loops, best of 5: 1.39 msec per loop
 
-#cProfile.run('find_mins(20)')
+# cProfile.run('find_mins(20)')
 # 3306 function calls (3244 primitive calls) in 0.060 seconds
 #
-#cProfile.run('find_mins(100)')
+# cProfile.run('find_mins(100)')
 # 3898 function calls (3836 primitive calls) in 0.032 seconds
 #
-#cProfile.run('find_mins(500)')
+# cProfile.run('find_mins(500)')
 # 6875 function calls (6813 primitive calls) in 0.034 seconds

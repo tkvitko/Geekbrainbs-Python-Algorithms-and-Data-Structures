@@ -5,7 +5,7 @@ import random
 lines_count = 4
 columns_count = 5
 
-matrix = [[random.randint(1,10) for i in range(columns_count)] for i in range(lines_count)]
+matrix = [[random.randint(1, 10) for i in range(columns_count)] for i in range(lines_count)]
 
 print('Исходная матрица:')
 print('=' * 25)
@@ -25,7 +25,7 @@ for i in range(columns_count):
     for j in range(lines_count):
         if min_from_column > matrix[j][i]:
             min_from_column = matrix[j][i]
-    print(f'Минимальный элемент столбца {i+1}: {min_from_column}')
+    print(f'Минимальный элемент столбца {i + 1}: {min_from_column}')
 
     if min_from_column > max:
         max = min_from_column

@@ -10,6 +10,7 @@ def digits_sum(number):
         sum = sum + digit
     return sum
 
+
 # Позволим пользователю выбрать, сколько чисел он собирается вводить
 count = int(input('Сколько чисел вы собираетесь ввести? '))
 max = 0

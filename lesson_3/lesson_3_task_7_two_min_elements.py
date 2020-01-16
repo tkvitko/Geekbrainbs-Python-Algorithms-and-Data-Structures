@@ -9,6 +9,7 @@ max_item = 10
 list = [random.randint(min_item, max_item) for i in range(20)]
 print(f'Исходный список: {list}')
 
+
 def find_and_remove_min(list):
     min = 10
     pos_of_min = 0
@@ -21,6 +22,7 @@ def find_and_remove_min(list):
     list.pop(pos_of_min)
     print(min)
     return min
+
 
 count = int(input('Сколько минимальных хотите найти? '))
 

@@ -10,4 +10,5 @@ def func1(end):
         n += 1
     return result[-1]
 
+
 print(func1(5))

@@ -7,5 +7,5 @@ import random
 list = list(set([random.randint(1, 10) for i in range(10)]))
 print(f'Исходный список: {list}')
 
-second_list = [list.index(i) for i in list if i % 2 ==0]
+second_list = [list.index(i) for i in list if i % 2 == 0]
 print(f'Исходный список: {second_list}')

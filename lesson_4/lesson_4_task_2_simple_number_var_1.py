@@ -3,8 +3,8 @@
 
 import cProfile
 
-def find_simple(position, end):
 
+def find_simple(position, end):
     def create_simples():
         n = end
         sieve = [i for i in range(n)]
@@ -17,6 +17,7 @@ def find_simple(position, end):
                     j += i
         result = [i for i in sieve if i != 0]
         return result
+
     list = create_simples()
     number = list[position]
     return number

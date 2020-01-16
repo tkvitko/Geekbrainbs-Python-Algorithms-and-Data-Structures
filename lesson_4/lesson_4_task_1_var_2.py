@@ -3,6 +3,7 @@
 
 import cProfile
 
+
 def find_mins(len):
     import random
 
@@ -16,7 +17,7 @@ def find_mins(len):
             min_1 = i
         elif i < min_2:
             min_2 = i
-    return(min_1, min_2)
+    return (min_1, min_2)
 
 # "lesson_3_task_7_alt_1.find_mins(20)"
 # 1000 loops, best of 5: 21.9 usec per loop

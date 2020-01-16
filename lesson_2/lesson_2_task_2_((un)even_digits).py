@@ -9,12 +9,11 @@ while number > 0:
     digit = number % 10
     number //= 10
     if digit % 2 == 0:
-# Альтернативный поиск:
-#    if digit in [0, 2, 4, 6, 8]:
+        # Альтернативный поиск:
+        #    if digit in [0, 2, 4, 6, 8]:
         even_count += 1
     else:
         uneven_count += 1
 
 print(f'Количество четных: {even_count}')
 print(f'Количество нечетных: {uneven_count}')
-

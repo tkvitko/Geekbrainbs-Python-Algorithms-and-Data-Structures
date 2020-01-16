@@ -13,7 +13,7 @@ profit_q2_list = []
 profit_q3_list = []
 profit_q4_list = []
 
-for i in range(1, number+1):
+for i in range(1, number + 1):
     prod_list.append(input(f'Название предприятия {i}: '))
     profit_q1_list.append(int(input(f'Доход за 1 квартал на предприятии {i}: ')))
     profit_q2_list.append(int(input(f'Доход за 2 квартал на предприятии {i}: ')))
@@ -22,9 +22,9 @@ for i in range(1, number+1):
 
 prod_map = ChainMap()
 for i in range(number):
-     prod_map = prod_map.new_child({'name': prod_list[i],
-                                    'q1': profit_q1_list[i], 'q2': profit_q2_list[i],
-                                    'q3': profit_q3_list[i], 'q4': profit_q4_list[i]})
+    prod_map = prod_map.new_child({'name': prod_list[i],
+                                   'q1': profit_q1_list[i], 'q2': profit_q2_list[i],
+                                   'q3': profit_q3_list[i], 'q4': profit_q4_list[i]})
 
 print(prod_map)
 
@@ -39,6 +39,7 @@ for i in range(number):
     year_profits.append(year_profit)
 print(f'Годовые доходы {number} предприятий: {year_profits}')
 
+
 def list_sum(list):
     sum = 0
     for i in list:
@@ -47,7 +48,7 @@ def list_sum(list):
 
 
 avg_sum_year = ((list_sum(profit_q1_list) + list_sum(profit_q2_list) +
-                 list_sum(profit_q3_list) + list_sum(profit_q4_list)))/number
+                 list_sum(profit_q3_list) + list_sum(profit_q4_list))) / number
 
 print(f'Средний доход за год: {avg_sum_year}')
 

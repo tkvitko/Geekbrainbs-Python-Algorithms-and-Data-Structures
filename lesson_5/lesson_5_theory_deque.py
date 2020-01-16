@@ -37,4 +37,3 @@ print(g)
 
 g.rotate(3)
 [print(g)]
-

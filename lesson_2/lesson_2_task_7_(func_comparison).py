@@ -3,6 +3,7 @@
 
 import random
 
+
 def way1(n):
     number = 0
     sum = 0
@@ -12,18 +13,19 @@ def way1(n):
         number = next_number
     return sum
 
-def way2(n):
-    return int((n*(n+1)/2))
 
-#Проврека пользователем
+def way2(n):
+    return int((n * (n + 1) / 2))
+
+
+# Проврека пользователем
 user_number = int(input('Введите число для проверки: '))
 print(f'Значение формулы 1: {way1(user_number)}')
 print(f'Значение формулы 2: {way2(user_number)}')
 
-#Доказательство
+# Доказательство
 test = random.randint(0, 100000)
 if way1(test) == way2(test):
     print(f'Все хорошо (проверено на {test})')
 else:
     print('Что-то не так')
-
