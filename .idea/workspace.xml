@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f860e1-d0ab-42b4-b03a-cafd6cbe2da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_bubble_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_insertion_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_quick_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_reverse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_selection_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_theory_shell_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7/lesson_7_task_3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3/lesson_3_task_3_(min_and_max_replace).py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/lesson_3_task_3_(min_and_max_replace).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/find_simple_number_var_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/find_simple_number_var_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/find_simple_number_var_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/find_simple_number_var_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/find_simple_number_var_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(search_for_random).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06_alt_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(bin_search_for_random)).py" afterDir="false" />
@@ -65,8 +56,8 @@
       <recent name="$PROJECT_DIR$/lesson_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesson_7_theory_reverse">
-    <configuration name="lesson_7_theory_insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lesson_7_task_1">
+    <configuration name="lesson_7_task_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geekbrains_ai_algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +69,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_theory_insertion_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_task_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_7_task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geekbrains_ai_algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_7_task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geekbrains_ai_algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_task_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,55 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson_7_theory_selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="geekbrains_ai_algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_theory_selection_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lesson_7_theory_shell_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="geekbrains_ai_algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_7/lesson_7_theory_shell_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson_7_task_1" />
+        <item itemvalue="Python.lesson_7_task_2" />
+        <item itemvalue="Python.lesson_7_task_3" />
         <item itemvalue="Python.lesson_7_theory_reverse" />
         <item itemvalue="Python.lesson_7_theory_quick_sort" />
-        <item itemvalue="Python.lesson_7_theory_shell_sort" />
-        <item itemvalue="Python.lesson_7_theory_insertion_sort" />
-        <item itemvalue="Python.lesson_7_theory_selection_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -211,54 +202,58 @@
       <screen x="0" y="23" width="1440" height="804" />
     </state>
     <state x="465" y="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.804@0.23.1440.804" timestamp="1578856077389" />
-    <state width="1576" height="230" key="GridCell.Tab.0.bottom" timestamp="1579276926984">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1419" height="241" key="GridCell.Tab.0.bottom" timestamp="1579296053176">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1579205488117" />
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1579089021272" />
+    <state width="1419" height="241" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1579296053176" />
     <state width="1419" height="146" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1578770501501" />
     <state width="1576" height="230" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579270389815" />
     <state width="1419" height="230" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1579251741560" />
     <state width="1576" height="230" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579276926984" />
     <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998972" />
-    <state width="1576" height="230" key="GridCell.Tab.0.center" timestamp="1579276926983">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1419" height="241" key="GridCell.Tab.0.center" timestamp="1579296053175">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="242" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1579205488116" />
-    <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1579089021271" />
+    <state width="1419" height="241" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1579296053175" />
     <state width="1419" height="146" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
     <state width="1576" height="230" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579270389814" />
     <state width="1419" height="230" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1579251741559" />
     <state width="1576" height="230" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579276926983" />
     <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998971" />
-    <state width="1576" height="230" key="GridCell.Tab.0.left" timestamp="1579276926983">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1419" height="241" key="GridCell.Tab.0.left" timestamp="1579296053175">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="242" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1579205488116" />
-    <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1579089021270" />
+    <state width="1419" height="241" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1579296053175" />
     <state width="1419" height="146" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1578953554416" />
     <state width="1419" height="136" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
     <state width="1576" height="230" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579270389813" />
     <state width="1419" height="230" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1579251741558" />
     <state width="1576" height="230" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579276926983" />
     <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998970" />
-    <state width="1576" height="230" key="GridCell.Tab.0.right" timestamp="1579276926984">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1419" height="241" key="GridCell.Tab.0.right" timestamp="1579296053175">
+      <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1419" height="242" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1579205488117" />
-    <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1579089021271" />
+    <state width="1419" height="241" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1579296053175" />
     <state width="1419" height="146" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1578953554417" />
     <state width="1419" height="136" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1578770501500" />
     <state width="1576" height="230" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.804@0.23.2560.1417" timestamp="1579270389815" />
     <state width="1419" height="230" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.804@483.1463.1440.804" timestamp="1579251741559" />
     <state width="1576" height="230" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.806@0.23.2560.1417" timestamp="1579276926984" />
     <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.2560.1417/483.1463.1440.806@483.1463.1440.806" timestamp="1579100998972" />
-    <state x="385" y="151" width="670" height="678" key="search.everywhere.popup" timestamp="1579035541576">
+    <state x="374" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579295011440">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="374" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.806@0.23.1440.806" timestamp="1579295011440" />
+    <state x="385" y="151" width="670" height="678" key="search.everywhere.popup" timestamp="1579288922957">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="385" y="151" width="670" height="676" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1578818737270" />
-    <state x="385" y="151" width="670" height="678" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1579035541576" />
+    <state x="385" y="151" width="670" height="678" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1579288922957" />
   </component>
 </project>
