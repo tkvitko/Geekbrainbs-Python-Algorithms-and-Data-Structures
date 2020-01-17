@@ -20,9 +20,12 @@ pos_of_min = list.index(min_item)
 pos_of_max = list.index(max_item)
 print(f'Позиция минимального: {pos_of_min}, позиция максимального: {pos_of_max}')
 
-list.pop(pos_of_min)
-list.insert(pos_of_min, max_item)
-list.pop(pos_of_max)
-list.insert(pos_of_max, min_item)
+# list.pop(pos_of_min)
+# list.insert(pos_of_min, max_item)
+# list.pop(pos_of_max)
+# list.insert(pos_of_max, min_item)
+
+# Обмен проще:
+list[pos_of_min], list[pos_of_max] = list[pos_of_max], list[pos_of_min]
 
 print(f'Итоговый список: {list}')

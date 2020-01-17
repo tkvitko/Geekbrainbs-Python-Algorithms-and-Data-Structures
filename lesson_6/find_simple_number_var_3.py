@@ -25,3 +25,13 @@ memory_used = 0
 for k, v in list_of_vars.items():
     memory_used += sys.getsizeof(v)
 print(f'Памяти использовано: {memory_used} байт')
+
+print(sys.version)
+print(sys.platform)
+
+"""
+Памяти использовано: 1234 байт
+3.7.3 (default, Sep 18 2019, 14:29:06) 
+[Clang 11.0.0 (clang-1100.0.33.8)]
+darwin
+"""
