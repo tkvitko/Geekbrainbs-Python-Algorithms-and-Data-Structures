@@ -5,7 +5,7 @@
 import random
 
 size = 10
-array = [random.uniform(0, 50) for i in range(size)]
+array = [round(random.uniform(0, 50), 3) for i in range(size)]
 
 print(f'Исходный массив: {array}')
 
@@ -16,7 +16,7 @@ def sort_merge(array):
     # Базовый случай для рекурсии
 
     left = sort_merge(array[:len(array) // 2])
-    right = sort_merge(array[len(array) // 2:len(array)])
+    right = sort_merge(array[len(array) // 2:])
     # Деление списка на левую и правую часть
 
     i = 0
