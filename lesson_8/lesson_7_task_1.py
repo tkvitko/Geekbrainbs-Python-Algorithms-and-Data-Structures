@@ -15,7 +15,7 @@ for i in range(N):
 
 print(f'Список неуникальных рукопожатий: {graph}')
 
-# Отфильтруем дубликаты
+# Отфильтруем взаимные рукопожатия
 result = []
 for item in graph:
     if item[0] > item[1]:

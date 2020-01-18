@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f860e1-d0ab-42b4-b03a-cafd6cbe2da6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_7_task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_8_theory_breadth_first_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_8_theory_deikstra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_8/lesson_8_theory_graph_presentations.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../helloworld_py3/self_lesson_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_7/lesson_7_task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_7/lesson_7_task_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_8/lesson_7_task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/lesson_7_task_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(search_for_random).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../helloworld_py3/lesson_06_alt_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../helloworld_py3/lesson_06_(bin_search_for_random)).py" afterDir="false" />
