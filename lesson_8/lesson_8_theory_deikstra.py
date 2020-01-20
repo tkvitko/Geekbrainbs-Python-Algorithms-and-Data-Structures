@@ -41,5 +41,6 @@ def deikstra(graph, start):
 
     return cost
 
+
 s = int(input('Откуда '))
 print(deikstra(g, s))
